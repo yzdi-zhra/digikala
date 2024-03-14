@@ -1,0 +1,17 @@
+.posters {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 15px 10px;
+  column-gap: 10px;
+  & .poster__div {
+    & .poster__a {
+      & img {
+        width: 300px;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+

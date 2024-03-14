@@ -1,0 +1,87 @@
+.e-productsWrapper__div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 16px;
+  & .e-products {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px gray;
+    border-radius: 20px;
+    & .e-categories {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      padding: 8px 20px;
+      border-left: 1px solid gray;
+      & h4 {
+        align-self: flex-start;
+        font-family: var(--font-family);
+        padding: 5px;
+      }
+      & p {
+        align-self: flex-start;
+        font-family: var(--font-family);
+        color: gray;
+        font-size: 10px;
+        padding: 5px;
+      }
+      & .productWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 130px);
+        & .product__div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          & .product__a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            & img {
+              width: 120px;
+              height: 120px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+        & .product__div:nth-of-type(1) {
+          border-left: 0.5px solid lightgray;
+          border-bottom: 0.5px solid lightgray;
+        }
+        & .product__div:nth-of-type(2) {
+          border-right: 0.5px solid lightgray;
+          border-bottom: 0.5px solid lightgray;
+        }
+        & .product__div:nth-of-type(3) {
+          border-top: 0.5px solid lightgray;
+          border-left: 0.5px solid lightgray;
+        }
+        & .product__div:nth-of-type(4) {
+          border-top: 0.5px solid lightgray;
+          border-right: 0.5px solid lightgray;
+        }
+      }
+      & .showAll {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        column-gap: 5px;
+        text-decoration: unset;
+        color: #19bfd3;
+        font-family: var(--font-family);
+        font-size: 13px;
+        padding-top: 10px;
+      }
+    }
+    & .e-categories:nth-of-type(4) {
+      border: unset;
+    }
+  }
+}

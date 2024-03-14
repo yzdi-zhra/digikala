@@ -1,0 +1,17 @@
+.posters-4__mainWrapper {
+  width: 100%;
+  height: 160px;
+  padding: 16px;
+  & .posters-4__secondWrapper {
+    width: 100%;
+    & .poster-4__a {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      & img {
+        width: inherit;
+        border-radius: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.digiOffers {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 10px 15px;
+  & .OfferConteinar {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    & .offer__a {
+      width: 178px;
+      height: 155px;
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: center;
+      border: 0.5px solid #f0f0f1;
+      & .offer {
+        display: flex;
+        flex-flow: column;
+        row-gap: 20px;
+        & .imgConteiner {
+          width: 85px;
+          height: 85px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          background-color: #f0f0f1;
+          & img {
+            width: 60px;
+            height: 60px;
+          }
+        }
+      }
+    }
+    & .offer__a:nth-of-type(1) {
+      border-radius: 0px 20px 0px 0px;
+    }
+    & .offer__a:nth-of-type(7) {
+      border-radius: 20px 0px 0px 0px;
+    }
+    & .offer__a:nth-of-type(8) {
+      border-radius: 0px 0px 20px 0px;
+    }
+    & .offer__a:nth-of-type(14) {
+      border-radius: 0px 0px 0px 20px;
+    }
+  }
+}

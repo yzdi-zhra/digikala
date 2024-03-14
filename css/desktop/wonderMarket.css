@@ -1,0 +1,95 @@
+.wonderMarket__div {
+  width: 100%;
+  text-decoration: unset;
+  background-color: #0ea20b;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 15px 40px;
+  & .right__div {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 70px;
+    & img {
+      width: 66px;
+      height: 61px;
+    }
+    & svg {
+      margin: 0px 20px;
+    }
+    & p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      text-decoration: unset;
+      color: whitesmoke;
+      font-family: var(--font-family);
+      font-size: 15px;
+      background-color: #39ae00;
+      border-radius: 17px;
+    }
+  }
+  & .left__div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    & .offers__div {
+      width: 70px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: unset;
+      margin: 5px 5px;
+      & .offers__a {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: unset;
+        & img {
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+        }
+        & span {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 70px;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: var(--font-family2);
+          color: whitesmoke;
+          background-color: crimson;
+          border-radius: 5px;
+          top: 25px;
+          left: 70px;
+        }
+      }
+    }
+    & .moreOffers__div {
+      padding: 12px 20px;
+      background-color: darkgreen;
+      border-radius: 30px;
+      & .moreOffers__a {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        text-decoration: unset;
+        font-family: var(--font-family);
+        & span {
+          color: whitesmoke;
+        }
+      }
+    }
+  }
+}

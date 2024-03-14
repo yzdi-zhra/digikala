@@ -1,0 +1,57 @@
+.Sign__In__Container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Sign__In {
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      direction: rtl;
+      gap: 1.5rem;
+      padding: 2rem;
+      border-radius: 10px;
+      border: 1px solid lightgray;
+      .Sign__In__Image__Container {
+        display: flex;
+        justify-content: center;
+        & img {
+          width: 9rem;
+        }
+      }
+      & h3 {
+        font-weight: 500;
+      }
+      .Sign__In__Head__P__Container {
+        & p {
+          font-size: 0.8em;
+          line-height: 1.8rem;
+        }
+      }
+      & form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        & input[type="text"] {
+          padding: 0.8rem 1rem;
+          border: 1px solid #EF4056;
+          border-radius: 10px;
+          outline: none;
+          font-size: 1.2em;
+        }
+        & button {
+          padding: 0.7rem 1rem;
+          border: none;
+          border-radius: 10px;
+          background-color: #EF4056;
+          color: whitesmoke;
+          font-family: "iranRegular", "sans-serif";
+          font-size: 1em;
+        }
+      }
+      .Sign__In__Privacy {
+        font-size: 0.65em;
+      }
+    }
+  }

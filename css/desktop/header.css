@@ -1,6 +1,10 @@
 header {
   width: 100%;
   height: 168px;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background-color: white;
   & .banner {
     width: 100%;
     height: 60px;
@@ -243,7 +247,7 @@ header {
           }
         }
       }
-      & .left{
+      & .left {
         width: fit-content;
         height: inherit;
         display: flex;

@@ -1,0 +1,14 @@
+.backUp{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 50px;
+    bottom: 10px;
+    z-index: 1000;
+    cursor: pointer;
+}
